@@ -4,7 +4,7 @@ import java.io.Serializable;
 import java.util.Date;
 import java.util.Objects;
 
-public class Seller implements Serializable {
+public class Seller implements Serializable { // importante usar o serializable para os dados poderem trafegar em rede
     private Integer id;
     private String name;
     private String email;
