@@ -21,10 +21,11 @@ public class Program {
         System.out.println("=== TESTE N2 seller findByDepartment");
         Department department = new Department(2 , null);
         List<Seller> list = sellerDao.findByDepartment(department);
+
+        System.out.println("teste 3 findall");
+        list = sellerDao.findAll();
         for (Seller obj : list){
             System.out.println(obj);
         }
-
-
     }
 }
